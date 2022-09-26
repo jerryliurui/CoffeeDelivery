@@ -11,7 +11,58 @@
 		7013A8F628DABB8A000742D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013A8F528DABB8A000742D8 /* ContentView.swift */; };
 		7013A8F828DABB8B000742D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A8F728DABB8B000742D8 /* Assets.xcassets */; };
 		7013A8FB28DABB8B000742D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A8FA28DABB8B000742D8 /* Preview Assets.xcassets */; };
+		7013A90828DABBAA000742D8 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7013A90728DABBAA000742D8 /* WidgetKit.framework */; };
+		7013A90A28DABBAA000742D8 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7013A90928DABBAA000742D8 /* SwiftUI.framework */; };
+		7013A90D28DABBAA000742D8 /* CofferWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013A90C28DABBAA000742D8 /* CofferWidget.swift */; };
+		7013A91028DABBAB000742D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013A90F28DABBAB000742D8 /* Assets.xcassets */; };
+		7013A91228DABBAB000742D8 /* CofferWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7013A90E28DABBAA000742D8 /* CofferWidget.intentdefinition */; };
+		7013A91328DABBAB000742D8 /* CofferWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 7013A90E28DABBAA000742D8 /* CofferWidget.intentdefinition */; };
+		7013A91628DABBAB000742D8 /* CofferWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7013A90528DABBAA000742D8 /* CofferWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7013A91D28DABBC0000742D8 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7013A91B28DABBBA000742D8 /* TopView.swift */; };
+		703A2DEB28DD5C2B00604360 /* CofferActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DEA28DD5C2B00604360 /* CofferActivityAttributes.swift */; };
+		703A2DEC28DD5C4B00604360 /* CofferActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DEA28DD5C2B00604360 /* CofferActivityAttributes.swift */; };
+		703A2DEE28DD5D9700604360 /* CofferOrderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DED28DD5D9700604360 /* CofferOrderInfo.swift */; };
+		703A2DEF28DD5D9700604360 /* CofferOrderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DED28DD5D9700604360 /* CofferOrderInfo.swift */; };
+		703A2DF228DD5ED600604360 /* LiveCofferWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DF028DD5ED600604360 /* LiveCofferWidget.swift */; };
+		703A2DF428DD9E6D00604360 /* CoffeeTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DF328DD9E6D00604360 /* CoffeeTrigger.swift */; };
+		703A2DF628DDA05D00604360 /* truck-delivery-done.gif in Resources */ = {isa = PBXBuildFile; fileRef = 703A2DF528DDA05D00604360 /* truck-delivery-done.gif */; };
+		703A2DF728DDA12400604360 /* CoffeeTrigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DF328DD9E6D00604360 /* CoffeeTrigger.swift */; };
+		703A2DF928DDABA500604360 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DF828DDABA500604360 /* StringExtension.swift */; };
+		703A2DFA28DDABDF00604360 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703A2DF828DDABA500604360 /* StringExtension.swift */; };
+		70734E9D28DC73D0007F04F7 /* CofferProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70734E9C28DC73D0007F04F7 /* CofferProgressView.swift */; };
+		70942AFE28DC559B001AFF79 /* FIFAGifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70942AFD28DC559B001AFF79 /* FIFAGifImageView.swift */; };
+		70942B0328DC5EE3001AFF79 /* CoffeeStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70942B0128DC5C2C001AFF79 /* CoffeeStateView.swift */; };
+		70942B0628DC6E5A001AFF79 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70942B0428DC6E57001AFF79 /* BottomView.swift */; };
+		70942B0828DC6F54001AFF79 /* CofferProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70942B0728DC6F54001AFF79 /* CofferProductView.swift */; };
+		70942B0A28DC70E4001AFF79 /* LiveActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70942B0928DC70E4001AFF79 /* LiveActivitiesView.swift */; };
+		70B1192828DDBFAB002BEFFD /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1192728DDBFAB002BEFFD /* CustomProgressView.swift */; };
+		70B1192A28DE88F6002BEFFD /* DynamicLeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1192928DE88F6002BEFFD /* DynamicLeadingView.swift */; };
+		70F9E03328DE8DE8002C422B /* DynamicTrailingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F9E03228DE8DE8002C422B /* DynamicTrailingView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7013A91428DABBAB000742D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7013A8E828DABB8A000742D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7013A90428DABBAA000742D8;
+			remoteInfo = CofferWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7013A91A28DABBAB000742D8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7013A91628DABBAB000742D8 /* CofferWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7013A8F028DABB8A000742D8 /* CofferDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CofferDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +70,31 @@
 		7013A8F528DABB8A000742D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7013A8F728DABB8B000742D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7013A8FA28DABB8B000742D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7013A90528DABBAA000742D8 /* CofferWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CofferWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7013A90728DABBAA000742D8 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		7013A90928DABBAA000742D8 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7013A90C28DABBAA000742D8 /* CofferWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofferWidget.swift; sourceTree = "<group>"; };
+		7013A90E28DABBAA000742D8 /* CofferWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CofferWidget.intentdefinition; sourceTree = "<group>"; };
+		7013A90F28DABBAB000742D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7013A91128DABBAB000742D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7013A91B28DABBBA000742D8 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		703A2DEA28DD5C2B00604360 /* CofferActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofferActivityAttributes.swift; sourceTree = "<group>"; };
+		703A2DED28DD5D9700604360 /* CofferOrderInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofferOrderInfo.swift; sourceTree = "<group>"; };
+		703A2DF028DD5ED600604360 /* LiveCofferWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCofferWidget.swift; sourceTree = "<group>"; };
+		703A2DF328DD9E6D00604360 /* CoffeeTrigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTrigger.swift; sourceTree = "<group>"; };
+		703A2DF528DDA05D00604360 /* truck-delivery-done.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "truck-delivery-done.gif"; sourceTree = "<group>"; };
+		703A2DF828DDABA500604360 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		703A2DFB28DDADAB00604360 /* CofferDelivery.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CofferDelivery.entitlements; sourceTree = "<group>"; };
+		703A2DFC28DDB1BD00604360 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70734E9C28DC73D0007F04F7 /* CofferProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofferProgressView.swift; sourceTree = "<group>"; };
+		70942AFD28DC559B001AFF79 /* FIFAGifImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIFAGifImageView.swift; sourceTree = "<group>"; };
+		70942B0128DC5C2C001AFF79 /* CoffeeStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeStateView.swift; sourceTree = "<group>"; };
+		70942B0428DC6E57001AFF79 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		70942B0728DC6F54001AFF79 /* CofferProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CofferProductView.swift; sourceTree = "<group>"; };
+		70942B0928DC70E4001AFF79 /* LiveActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivitiesView.swift; sourceTree = "<group>"; };
+		70B1192728DDBFAB002BEFFD /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
+		70B1192928DE88F6002BEFFD /* DynamicLeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLeadingView.swift; sourceTree = "<group>"; };
+		70F9E03228DE8DE8002C422B /* DynamicTrailingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTrailingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +105,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7013A90228DABBAA000742D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013A90A28DABBAA000742D8 /* SwiftUI.framework in Frameworks */,
+				7013A90828DABBAA000742D8 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				7013A8F228DABB8A000742D8 /* CofferDelivery */,
+				7013A90B28DABBAA000742D8 /* CofferWidget */,
+				7013A90628DABBAA000742D8 /* Frameworks */,
 				7013A8F128DABB8A000742D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				7013A8F028DABB8A000742D8 /* CofferDelivery.app */,
+				7013A90528DABBAA000742D8 /* CofferWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +139,18 @@
 		7013A8F228DABB8A000742D8 /* CofferDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				703A2DFB28DDADAB00604360 /* CofferDelivery.entitlements */,
+				703A2DFC28DDB1BD00604360 /* Info.plist */,
+				703A2DF528DDA05D00604360 /* truck-delivery-done.gif */,
+				70942AFD28DC559B001AFF79 /* FIFAGifImageView.swift */,
 				7013A8F328DABB8A000742D8 /* CofferDeliveryApp.swift */,
 				7013A8F528DABB8A000742D8 /* ContentView.swift */,
 				7013A8F728DABB8B000742D8 /* Assets.xcassets */,
 				7013A8F928DABB8B000742D8 /* Preview Content */,
+				703A2DEA28DD5C2B00604360 /* CofferActivityAttributes.swift */,
+				703A2DED28DD5D9700604360 /* CofferOrderInfo.swift */,
+				703A2DF328DD9E6D00604360 /* CoffeeTrigger.swift */,
+				703A2DF828DDABA500604360 /* StringExtension.swift */,
 			);
 			path = CofferDelivery;
 			sourceTree = "<group>";
@@ -67,6 +163,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7013A90628DABBAA000742D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7013A90728DABBAA000742D8 /* WidgetKit.framework */,
+				7013A90928DABBAA000742D8 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7013A90B28DABBAA000742D8 /* CofferWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7013A90C28DABBAA000742D8 /* CofferWidget.swift */,
+				7013A90E28DABBAA000742D8 /* CofferWidget.intentdefinition */,
+				7013A90F28DABBAB000742D8 /* Assets.xcassets */,
+				7013A91128DABBAB000742D8 /* Info.plist */,
+				703A2DF028DD5ED600604360 /* LiveCofferWidget.swift */,
+				70942B0928DC70E4001AFF79 /* LiveActivitiesView.swift */,
+				7013A91B28DABBBA000742D8 /* TopView.swift */,
+				70942B0428DC6E57001AFF79 /* BottomView.swift */,
+				70942B0128DC5C2C001AFF79 /* CoffeeStateView.swift */,
+				70942B0728DC6F54001AFF79 /* CofferProductView.swift */,
+				70734E9C28DC73D0007F04F7 /* CofferProgressView.swift */,
+				70B1192728DDBFAB002BEFFD /* CustomProgressView.swift */,
+				70B1192928DE88F6002BEFFD /* DynamicLeadingView.swift */,
+				70F9E03228DE8DE8002C422B /* DynamicTrailingView.swift */,
+			);
+			path = CofferWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +203,34 @@
 				7013A8EC28DABB8A000742D8 /* Sources */,
 				7013A8ED28DABB8A000742D8 /* Frameworks */,
 				7013A8EE28DABB8A000742D8 /* Resources */,
+				7013A91A28DABBAB000742D8 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7013A91528DABBAB000742D8 /* PBXTargetDependency */,
 			);
 			name = CofferDelivery;
 			productName = CofferDelivery;
 			productReference = 7013A8F028DABB8A000742D8 /* CofferDelivery.app */;
 			productType = "com.apple.product-type.application";
+		};
+		7013A90428DABBAA000742D8 /* CofferWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7013A91728DABBAB000742D8 /* Build configuration list for PBXNativeTarget "CofferWidgetExtension" */;
+			buildPhases = (
+				7013A90128DABBAA000742D8 /* Sources */,
+				7013A90228DABBAA000742D8 /* Frameworks */,
+				7013A90328DABBAA000742D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CofferWidgetExtension;
+			productName = CofferWidgetExtension;
+			productReference = 7013A90528DABBAA000742D8 /* CofferWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +243,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					7013A8EF28DABB8A000742D8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					7013A90428DABBAA000742D8 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -116,6 +264,7 @@
 			projectRoot = "";
 			targets = (
 				7013A8EF28DABB8A000742D8 /* CofferDelivery */,
+				7013A90428DABBAA000742D8 /* CofferWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +274,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703A2DF628DDA05D00604360 /* truck-delivery-done.gif in Resources */,
 				7013A8FB28DABB8B000742D8 /* Preview Assets.xcassets in Resources */,
 				7013A8F828DABB8B000742D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7013A90328DABBAA000742D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013A91028DABBAB000742D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +295,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703A2DEB28DD5C2B00604360 /* CofferActivityAttributes.swift in Sources */,
+				703A2DF428DD9E6D00604360 /* CoffeeTrigger.swift in Sources */,
+				703A2DEE28DD5D9700604360 /* CofferOrderInfo.swift in Sources */,
 				7013A8F628DABB8A000742D8 /* ContentView.swift in Sources */,
+				703A2DF928DDABA500604360 /* StringExtension.swift in Sources */,
 				7013A8F428DABB8A000742D8 /* CofferDeliveryApp.swift in Sources */,
+				7013A91328DABBAB000742D8 /* CofferWidget.intentdefinition in Sources */,
+				70942AFE28DC559B001AFF79 /* FIFAGifImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7013A90128DABBAA000742D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70942B0328DC5EE3001AFF79 /* CoffeeStateView.swift in Sources */,
+				70734E9D28DC73D0007F04F7 /* CofferProgressView.swift in Sources */,
+				703A2DF728DDA12400604360 /* CoffeeTrigger.swift in Sources */,
+				7013A90D28DABBAA000742D8 /* CofferWidget.swift in Sources */,
+				703A2DF228DD5ED600604360 /* LiveCofferWidget.swift in Sources */,
+				7013A91D28DABBC0000742D8 /* TopView.swift in Sources */,
+				70942B0828DC6F54001AFF79 /* CofferProductView.swift in Sources */,
+				70B1192A28DE88F6002BEFFD /* DynamicLeadingView.swift in Sources */,
+				703A2DEC28DD5C4B00604360 /* CofferActivityAttributes.swift in Sources */,
+				7013A91228DABBAB000742D8 /* CofferWidget.intentdefinition in Sources */,
+				703A2DEF28DD5D9700604360 /* CofferOrderInfo.swift in Sources */,
+				70942B0628DC6E5A001AFF79 /* BottomView.swift in Sources */,
+				70B1192828DDBFAB002BEFFD /* CustomProgressView.swift in Sources */,
+				703A2DFA28DDABDF00604360 /* StringExtension.swift in Sources */,
+				70F9E03328DE8DE8002C422B /* DynamicTrailingView.swift in Sources */,
+				70942B0A28DC70E4001AFF79 /* LiveActivitiesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7013A91528DABBAB000742D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7013A90428DABBAA000742D8 /* CofferWidgetExtension */;
+			targetProxy = 7013A91428DABBAB000742D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7013A8FC28DABB8B000742D8 /* Debug */ = {
@@ -262,14 +457,17 @@
 		7013A8FF28DABB8B000742D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CofferDelivery/CofferDelivery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CofferDelivery/Preview Content\"";
-				DEVELOPMENT_TEAM = W755NUT7GJ;
+				DEVELOPMENT_TEAM = 52CM5QMX26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CofferDelivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ustc.jerryliu.CofferDelivery;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ustc.jerryliu.liveactivitiesdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,14 +489,17 @@
 		7013A90028DABB8B000742D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CofferDelivery/CofferDelivery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CofferDelivery/Preview Content\"";
-				DEVELOPMENT_TEAM = W755NUT7GJ;
+				DEVELOPMENT_TEAM = 52CM5QMX26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CofferDelivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,8 +510,62 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ustc.jerryliu.CofferDelivery;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ustc.jerryliu.liveactivitiesdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7013A91828DABBAB000742D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52CM5QMX26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CofferWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CofferWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ustc.jerryliu.liveactivitiesdemo.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7013A91928DABBAB000742D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52CM5QMX26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CofferWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CofferWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ustc.jerryliu.liveactivitiesdemo.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +589,15 @@
 			buildConfigurations = (
 				7013A8FF28DABB8B000742D8 /* Debug */,
 				7013A90028DABB8B000742D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7013A91728DABBAB000742D8 /* Build configuration list for PBXNativeTarget "CofferWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7013A91828DABBAB000742D8 /* Debug */,
+				7013A91928DABBAB000742D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

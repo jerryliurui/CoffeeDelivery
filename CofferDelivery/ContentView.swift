@@ -8,12 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    let cofferTrigger: CoffeeTrigger = CoffeeTrigger()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            FIFAGifImageView(gifName: "truck-delivery-done")
+                .frame(width: 300, height: 300)
+            
+            Button {
+              DispatchQueue
+                .main
+                .asyncAfter(deadline: .now() + 2,
+                            execute: {
+                    cofferTrigger.startPushLiveActivities()
+                })
+              
+            } label: {
+              Text("购买两杯咖啡")
+                .font(.system(size: 18, weight: .medium))
+            }
+            
+            Spacer()
         }
         .padding()
     }
